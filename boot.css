@@ -1,0 +1,70 @@
+.custom-border-button {
+    border: 1px solid #00A9FF;
+    background-color: #CDF5FD;
+}
+
+.custom-text-color {
+    color: #00A9FF;
+}
+
+.activity-section {
+    margin-top: 70px;
+}
+
+.activity-item h6 {
+   color: #00a9ff;
+   font-weight: 700;
+   font-size: small;
+}
+
+.activity-item h2 {
+    color: #252842;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.activity-text p {
+    color: #737373;
+    font-weight: 700;
+    font-size: 0.6rem;
+}
+
+.icon {
+    background-color: #CDF5FD;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-left: 40px;
+}
+
+.icon i {
+    padding: 10px;
+    border-radius: 50%;
+    color: #E74040;
+    background-color: #89CFF3;
+    font-size: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.specialize-section {
+    margin-top: 70px;
+}
+
+.specialize-text h6 {
+    color: #00A9FF;
+    font-weight: 700;
+    font-size: small;
+}
+
+.specialize-text h2 {
+    color: #252842;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.specialize-text p {
+    color: #737373;
+    font-weight: 700;
+    font-size: 0.6rem;
+}

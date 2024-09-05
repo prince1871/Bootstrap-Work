@@ -1,0 +1,12 @@
+@import "styleVariables";
+
+h1 {
+    color: $textColor;
+    font-size: $textSize;
+    text-align: $textPosition;
+}
+
+p{
+    color: $textColor;
+    font-size: $paraTextSize;
+}
