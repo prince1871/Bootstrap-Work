@@ -1,0 +1,28 @@
+ALGORITHM algorithm_sentence
+    let lenght_count = 0;
+    let word_count = 1;
+    let vowel_count = 0;
+    vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
+BEGIN
+// increment for each character
+    lenght_count+ 1
+
+    // increment of word sepreated by space
+    IF (char = " ") then
+    word_count = word_count + 1
+    END_IF
+
+    // increment of vowel
+    IF (char = vowels) then
+    vowel_count = vowel_count + 1
+    END_IF
+
+    // decrement of lenght_count for each dot
+    IF (char = ".") then
+    lenght_count = lenght_count - 1
+    END_IF
+    // output
+    output "length_count: ", lenght_count
+    output "word_count: ", word_count
+    output "vowel_count: ", vowel_count
+END
