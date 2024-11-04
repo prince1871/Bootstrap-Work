@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #7770da;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+
+}
+
+nav a:hover {
+    background-color: #1ce029;
+}
+
+h1 {
+    color: #7770da;
+}
+
+p {
+    color: #226fda;
+}
+
+li {
+    margin: 10px 0;
+    color: #226fda;
+}
+
+.container {
+    padding: 20px;
+}
